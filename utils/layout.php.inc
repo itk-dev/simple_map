@@ -104,7 +104,7 @@ class Layout {
                    <link href="'. $this->conf->getWebroot() .'/css/reset.css" rel="stylesheet" type="text/css"></link>
                    <link href="'. $this->conf->getWebroot() .'/css/front.css" rel="stylesheet" type="text/css"></link>
                    <title>
-                     Udbudskort
+                     Tilslutning til biblioteks udbudet
                    </title>
                  </head>
                  <body class="black">
