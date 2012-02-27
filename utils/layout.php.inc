@@ -122,7 +122,7 @@ class Layout {
                        <div id="population">
                          <table border="1">
                            <tr id="pop-total"><td class="none">Indbyggere</td><td class="num none"></td><td class="pro none"></td></tr>
-                           <tr id="pop-interested"><td>Interesserede</td><td class="num"></td><td class="pro"></td></tr>
+                           <tr id="pop-interested"><td>Har tilsluttet sig</td><td class="num"></td><td class="pro"></td></tr>
                            <tr id="pop-not-interested"><td>Ikke interesserede</td><td class="num"></td><td class="pro"></td></tr>
                          </table>
                        </div>
@@ -141,9 +141,10 @@ class Layout {
                  <html xmlns="http://www.w3.org/1999/xhtml" class="embedded">
                  <head>
                    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-                   <script type="text/javascript" src="http://www.google.com/jsapi?key='. $this->conf->gkey() .'"></script>
-                   <script type="text/javascript" src="'. $this->conf->getWebroot() .'/js/tingmap.js"></script>
+                   <script src="http://maps.google.com/maps/api/js?v=3.6&amp;sensor=false"></script>
+                   <script type="text/javascript" src="http://openlayers.org/api/2.11/OpenLayers.js"></script>
                    <script type="text/javascript" src="'. $this->conf->getWebroot() .'/js/jquery-1.3.2.min.js"></script>
+                   <script type="text/javascript" src="'. $this->conf->getWebroot() .'/js/tingmap.js"></script>
                    <link href="'. $this->conf->getWebroot() .'/css/reset.css" rel="stylesheet" type="text/css"></link>
                    <link href="'. $this->conf->getWebroot() .'/css/front.css" rel="stylesheet" type="text/css"></link>
                    <title>
@@ -157,9 +158,8 @@ class Layout {
                        <div id="population">
                          <table border="1">
                            <tr id="pop-total"><td class="none">Indbyggere</td><td class="num none"></td><td class="pro none"></td></tr>
-                           <tr id="pop-selected"><td>Interesserede i fælles udbud</td><td class="num"></td><td class="pro bold"></td></tr>
-                           <tr id="pop-interested"><td>Ikke interesserede</td><td class="num"></td><td class="pro"></td></tr>
-                           <tr id="pop-not-interested"><td>Potentielle</td><td class="num"></td><td class="pro"></td></tr>
+                           <tr id="pop-interested"><td>Har tilsluttet sig</td><td class="num"></td><td class="pro"></td></tr>
+                           <tr id="pop-not-interested"><td>Ikke interesserede</td><td class="num"></td><td class="pro"></td></tr>
                          </table>
                        </div>
                      </div>
