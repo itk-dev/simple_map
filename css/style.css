@@ -1,0 +1,247 @@
+
+body {
+  margin:20px 0px;
+  padding:0px;
+  text-align:center;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+}
+
+h2 {
+  margin: 0px;
+  margin-bottom: 8px;
+}
+
+p {
+  margin-top: 2px;
+  color: #444;
+}
+
+
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.box {
+  margin: 0px auto;
+  text-align: left;
+  padding: 15px;
+  border: 1px solid #333;
+  background-color: #eee;  
+}
+
+.box h2 {
+  text-align: center;
+}
+
+.roundCorners {
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+
+
+
+
+label {
+  position: absolute;
+  text-align: right;
+  width: 130px;
+}
+
+input, textarea { 
+  margin-left: 140px;
+  margin-bottom: 4px;
+}
+
+input[type=checkbox] {
+  margin-left: 0px;
+}
+
+label.check, label.radio {
+  position: relative;
+  text-align: left;
+}
+
+.button-wrapper {
+  margin-top: 2px;
+}
+
+
+
+#page {
+  width: 800px;
+  margin: 0px auto;
+  text-align: left;
+}
+
+#content {
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#content h1 {
+  font-size: 140%;
+}
+
+#content p {
+  font-size: 90%;
+}
+
+#menu {
+  margin: 10px;
+}
+
+#menu ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #CCC;
+}
+
+#menu li {
+  position: relative;
+  display: inline;
+}
+
+#menu li a {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+
+
+#feedback {
+  display: none;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  text-align: center;
+  padding: 10px;
+  line-height: 26px;
+}
+
+.err {
+  color: #F00;
+  background-color: #FDD;
+  border: 1px solid red;
+}
+
+.err>#icon {
+  background: url('../img/error.png') no-repeat;
+  background-position: 0px 50%;
+  padding-left: 45px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.info {
+  color: #00F;
+  background-color: #AAF;
+  border: 1px solid blue;
+}
+
+.info>#icon {
+  background: url('../img/information.png') no-repeat;
+  background-position: 0px 50%;
+  padding-left: 45px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.ok {
+  color: green;
+  background-color: #AFA;
+  border: 1px solid green;
+}
+
+.ok>#icon {
+  background: url('../img/checkmark.png') no-repeat;
+  background-position: 0px 50%;
+  padding-left: 45px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.buttons {
+  text-align: left;
+  margin-top: 4px;
+}
+
+.buttons input[type=button] {
+  margin-left: 0px;
+}
+
+#color-selections {
+  width: 210px;
+}
+
+#color-selections dt {
+  float: left;
+  padding: 5px 0;
+  width: 100px;
+  clear: left;
+  margin-left: 10px;
+}
+
+#color-selections dd {
+  border-bottom: 1px dotted #ccc;
+  padding: 5px 0;
+  margin: 0;
+}
+
+#color-selections .preview-color {
+  width: 20px;
+  height: 20px;
+  margin-left: 160px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+#color-selections dd:last-child {
+  border-bottom: none;
+}
+
+#color-box-selection {
+  margin-top: 10px;
+  width: 400px;
+}
+
+#color-box-selection .farbtastic {
+  margin: 0 auto;
+}
+
+#color-box-selection .center {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#color-box-selection input {
+  display: block;
+  margin: 0 auto;
+}
+
+#color-box-selection #region-name {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 110%;
+}
+
+#color-box-selection .button-wrapper {
+  margin-top: 6px;
+}
